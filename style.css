@@ -11,25 +11,45 @@ p{
 }
 
 .intro {
-   
+    align-content: center;
+    width: 50%;
+    max-width: 800px;
+        min-width: 300px;
     background: rgba(0,100,0,0.3);
-    border-radius: 20px 100px;
+    border-radius: 50px 100px;
     padding: 50px;
+     margin:0 auto;
 
 }
 
 .currentChallenges {
+    width: 50%;
+    max-width: 800px;
+        min-width: 300px;
     text-align: center;
     background: rgba(100,0,250,0.3);
     border-radius: 20px 100px;
     padding: 50px;
+    font-size: 20px;
+     margin:0 auto;
+
+}
+
+.curContainer {
+    text-align: left;
+    width: 100%; 
+    overflow: auto;
 }
 
 .pastChallenges {
+    width: 50%;
+    max-width: 800px;
+    min-width: 300px;
     text-align: center;
     background: rgba(100,200,250,0.3);
     border-radius: 20px 100px;
     padding: 50px;
+     margin:0 auto;
 }
 
 
@@ -42,5 +62,9 @@ body {
     background-position: center bottom;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-}
 
+}
+ img{
+    justify-content: center;
+    align-content: center;
+ }
